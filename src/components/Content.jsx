@@ -1,4 +1,4 @@
-import useOnline from "../hooks/useOnline";
+import { useOnline } from "react-customs";
 
 function Content() {
   const isOnline = useOnline();
